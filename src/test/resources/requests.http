@@ -1,0 +1,10 @@
+POST http://localhost:8080/media
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="image.png"
+
+< ./media.jpg
+--WebAppBoundary--
+
+
